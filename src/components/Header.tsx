@@ -1,7 +1,7 @@
 import { CartItem, Guitar } from "../types"
 
 type HeaderProps = {
-    cart: CartItem
+    cart: CartItem[]
     removeFromCart: (id: Guitar['id']) => void
     decreaseQuantity: (id: Guitar['id']) => void
     increaseQuantity: (id: Guitar['id']) => void
