@@ -4,11 +4,13 @@ export type Guitar = {
     image: string
     description: string
     price: number
-}
+};
 
 export type CartItem = Guitar & {
     quantity: number
-}
+};
+
+export type GuitarId = Guitar['id'];
 
 // export type CartItem = Pick<Guitar, 'id' | 'name' | 'price' > & {
 //     quantity: number
